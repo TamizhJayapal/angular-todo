@@ -1,0 +1,7 @@
+<div class="container">
+  <mat-selection-list class="todo-list" #shoes>
+    <mat-list-option [(value)]="todo.isCompleted" *ngFor="let todo of todoList">
+      {{todo.title}}
+    </mat-list-option>
+  </mat-selection-list>
+</div>
