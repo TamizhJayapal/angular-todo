@@ -1,8 +1,25 @@
 .container {
-    width: 80%;
     display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    padding: 25px;
+}
+
+#add-todo-btn {
+    align-self: flex-end;
 }
 
 .todo-list {
     margin: auto;
+    width: 100%;
+    outline: none;
+}
+
+.todo-title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+    width: 100%;
 }
